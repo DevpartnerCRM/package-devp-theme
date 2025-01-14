@@ -1,0 +1,55 @@
+{
+  "name": "nordic-route-theme",
+  "version": "0.0.2",
+  "description": "Theme style guide for NordicRoute CRM",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prettier": "prettier . --write",
+    "prepare": "npm run build",
+    "build": "rollup -c",
+    "login": "npm login",
+    "publish": "npm publish"
+  },
+  "keywords": [
+    "crm",
+    "mui",
+    "theme",
+    "custom-theme",
+    "NordicRoute",
+    "nordic-route-theme"
+  ],
+  "author": "NordicRoute",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevpartnerCRM/package-devp-theme.git"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.15",
+    "prettier": "^3.0.0",
+    "react": "^18.3.1",
+    "rollup": "^4.13.2",
+    "rollup-plugin-css-only": "^4.5.2",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.1",
+    "@rehookify/datepicker": "^6.5.0",
+    "react-dropzone": "^14.2.3",
+    "react-quill": "^2.0.0",
+    "react-select": "^5.7.4"
+  }
+}
