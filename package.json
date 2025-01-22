@@ -1,6 +1,6 @@
 {
   "name": "nordic-route-theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Theme style guide for NordicRoute CRM",
   "main": "dist/index.js",
   "module": "dist/index.js",
